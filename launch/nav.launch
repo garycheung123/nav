@@ -1,0 +1,7 @@
+<launch>
+  <env name="PYTHONPATH" value="$(env PYTHONPATH)" />
+
+  <rosparam command="load" file="$(find nav_test)/path/nav.yaml" />
+  <node name="nav" pkg="nav_test" type="nav.py" output="screen" />
+
+</launch>

@@ -1,0 +1,14 @@
+stepSize : 4
+forwardSpeed : 0.9
+rotateSpeed : 0.2
+rotateForwardSpeed : 0.1
+cannyLower : 29
+cannyUpper : 62
+gaussianMask : 11
+imageShow : True
+walk : True
+gui : True
+sideThreshold : 2.5
+centerThreshold : 3
+sideDividen : 4
+centerDividen : 3
